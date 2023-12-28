@@ -48,5 +48,6 @@ jobs:
           platforms: linux/amd64,linux/arm64
           push: ${{ github.ref == 'refs/heads/main' }}
           tags: ghcr.io/deanpcmad/rails-docker:${{ matrix.version }}
+          provenance: false
           cache-from: type=gha
           cache-to: type=gha,mode=max
