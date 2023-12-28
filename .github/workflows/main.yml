@@ -21,6 +21,8 @@ jobs:
         version:
           - '3.2'
           - '3.2-node'
+          - '3.3'
+          - '3.3-node'
 
     steps:
       - name: Set up Docker Buildx
