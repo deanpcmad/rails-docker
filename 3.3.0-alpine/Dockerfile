@@ -21,7 +21,4 @@ RUN apk add --no-cache \
     mariadb-dev \
     git \
     bash \
-    tzdata \
-    nodejs-current \
-    npm \
-    yarn
+    tzdata
