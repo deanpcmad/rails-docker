@@ -3,11 +3,6 @@ FROM ruby:3.2.2-alpine AS base
 
 LABEL maintainer="dean@deanpcmad.com"
 
-WORKDIR /rails
-
-RUN adduser -S -h /rails -s /bin/sh rails
-USER rails
-
 # Set production environment
 ENV RAILS_ENV="production" \
     BUNDLE_DEPLOYMENT="1" \
@@ -27,3 +22,8 @@ RUN apk add --no-cache \
     git \
     bash \
     tzdata
+
+# Set working directory and create user
+WORKDIR /rails
+RUN adduser -S -h /rails -s /bin/sh rails
+USER rails
