@@ -3,8 +3,10 @@ FROM ruby:3.2.2-alpine AS base
 
 LABEL maintainer="dean@deanpcmad.com"
 
-# Rails app lives here
 WORKDIR /rails
+
+RUN adduser -S -h /rails -s /bin/sh rails
+USER rails
 
 # Set production environment
 ENV RAILS_ENV="production" \
