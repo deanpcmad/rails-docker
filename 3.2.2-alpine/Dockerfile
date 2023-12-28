@@ -25,8 +25,3 @@ RUN apk add --no-cache \
     nodejs-current \
     npm \
     yarn
-
-# Set working directory and create user
-WORKDIR /rails
-RUN adduser -S -h /rails -s /bin/sh rails
-USER rails

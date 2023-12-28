@@ -22,8 +22,3 @@ RUN apk add --no-cache \
     git \
     bash \
     tzdata
-
-# Set working directory and create user
-WORKDIR /rails
-RUN adduser -S -h /rails -s /bin/sh rails
-USER rails
