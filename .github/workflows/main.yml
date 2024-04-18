@@ -21,6 +21,8 @@ jobs:
         version:
           - '3.2.2-alpine'
           - '3.2.2-alpine-node'
+          - '3.2.3-alpine'
+          - '3.2.3-alpine-node'
           - '3.3.0-alpine'
           - '3.3.0-alpine-node'
 

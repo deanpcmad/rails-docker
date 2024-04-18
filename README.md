@@ -31,6 +31,9 @@ The following images are available:
 - `ghcr.io/deanpcmad/rails-docker:3.2.2-alpine` - Ruby 3.2.2
 - `ghcr.io/deanpcmad/rails-docker:3.2.2-alpine-node` - Ruby 3.2.2 with NodeJS, NPM and Yarn
 
+- `ghcr.io/deanpcmad/rails-docker:3.2.3-alpine` - Ruby 3.2.3
+- `ghcr.io/deanpcmad/rails-docker:3.2.3-alpine-node` - Ruby 3.2.3 with NodeJS, NPM and Yarn
+
 ### Ruby 3.3
 
 - `ghcr.io/deanpcmad/rails-docker:3.3.0-alpine` - Ruby 3.3.0
