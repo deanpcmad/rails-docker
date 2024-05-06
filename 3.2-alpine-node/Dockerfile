@@ -1,5 +1,5 @@
 
-FROM ruby:3.2.3-alpine AS base
+FROM ruby:3.2.4-alpine AS base
 
 LABEL maintainer="dean@deanpcmad.com"
 
@@ -21,4 +21,7 @@ RUN apk add --no-cache \
     mariadb-dev \
     git \
     bash \
-    tzdata
+    tzdata \
+    nodejs-current \
+    npm \
+    yarn
