@@ -1,5 +1,5 @@
 
-FROM ruby:3.1.5-alpine AS base
+FROM ruby:3.1.6-alpine AS base
 
 LABEL maintainer="dean@deanpcmad.com"
 
