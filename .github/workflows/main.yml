@@ -25,6 +25,8 @@ jobs:
           - '3.2-alpine-node'
           - '3.3-alpine'
           - '3.3-alpine-node'
+          - '3.4-alpine'
+          - '3.4-alpine-node'
 
     steps:
       - name: Set up Docker Buildx
