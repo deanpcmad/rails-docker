@@ -26,11 +26,6 @@ additional packages (in addition to the packages listed above):
 
 The following images are available:
 
-### Ruby 3.1
-
-- `ghcr.io/deanpcmad/rails-docker:3.1-alpine` - Ruby 3.1
-- `ghcr.io/deanpcmad/rails-docker:3.1-alpine-node` - Ruby 3.1 with NodeJS, NPM and Yarn
-
 ### Ruby 3.2
 
 - `ghcr.io/deanpcmad/rails-docker:3.2-alpine` - Ruby 3.2
