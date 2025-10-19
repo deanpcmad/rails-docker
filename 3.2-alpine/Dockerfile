@@ -11,4 +11,5 @@ RUN apk add --no-cache \
     mariadb-dev \
     git \
     bash \
-    tzdata
+    tzdata \
+    yaml-dev \

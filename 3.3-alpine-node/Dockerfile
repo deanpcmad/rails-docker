@@ -12,6 +12,7 @@ RUN apk add --no-cache \
     git \
     bash \
     tzdata \
+    yaml-dev \
     nodejs-current \
     npm \
     yarn
